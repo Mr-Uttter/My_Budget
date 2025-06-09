@@ -7,22 +7,34 @@ set(CMAKE_DEPENDS_GENERATOR "MinGW Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
+  "C:/Program Files/CMake/share/cmake-4.0/Modules/BasicConfigVersion-SameMajorVersion.cmake.in"
   "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeCInformation.cmake"
   "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeCXXInformation.cmake"
   "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeCommonLanguageInclude.cmake"
+  "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDependentOption.cmake"
   "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeGenericSystem.cmake"
   "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeInitializeConfigs.cmake"
   "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeLanguageInformation.cmake"
+  "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakePackageConfigHelpers.cmake"
   "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeRCInformation.cmake"
   "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeSystemSpecificInformation.cmake"
   "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeSystemSpecificInitialize.cmake"
+  "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCSourceCompiles.cmake"
+  "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckIncludeFile.cmake"
+  "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckLibraryExists.cmake"
   "C:/Program Files/CMake/share/cmake-4.0/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
   "C:/Program Files/CMake/share/cmake-4.0/Modules/Compiler/GNU-C.cmake"
   "C:/Program Files/CMake/share/cmake-4.0/Modules/Compiler/GNU-CXX.cmake"
   "C:/Program Files/CMake/share/cmake-4.0/Modules/Compiler/GNU.cmake"
+  "C:/Program Files/CMake/share/cmake-4.0/Modules/FindDoxygen.cmake"
+  "C:/Program Files/CMake/share/cmake-4.0/Modules/FindPackageHandleStandardArgs.cmake"
+  "C:/Program Files/CMake/share/cmake-4.0/Modules/FindPackageMessage.cmake"
+  "C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake"
+  "C:/Program Files/CMake/share/cmake-4.0/Modules/GNUInstallDirs.cmake"
   "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CMakeCLinkerInformation.cmake"
   "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CMakeCXXLinkerInformation.cmake"
   "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CMakeCommonLinkerInformation.cmake"
+  "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake"
   "C:/Program Files/CMake/share/cmake-4.0/Modules/Platform/Linker/GNU.cmake"
   "C:/Program Files/CMake/share/cmake-4.0/Modules/Platform/Linker/Windows-C.cmake"
   "C:/Program Files/CMake/share/cmake-4.0/Modules/Platform/Linker/Windows-CXX.cmake"
@@ -38,11 +50,18 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/CMake/share/cmake-4.0/Modules/Platform/Windows-windres.cmake"
   "C:/Program Files/CMake/share/cmake-4.0/Modules/Platform/Windows.cmake"
   "C:/Program Files/CMake/share/cmake-4.0/Modules/Platform/WindowsPaths.cmake"
+  "C:/Program Files/CMake/share/cmake-4.0/Modules/WriteBasicConfigVersionFile.cmake"
   "C:/Users/xippe/OneDrive/Skrivbord/final_project/C++/My_Budget/CMakeLists.txt"
   "CMakeFiles/4.0.2/CMakeCCompiler.cmake"
   "CMakeFiles/4.0.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.0.2/CMakeRCCompiler.cmake"
   "CMakeFiles/4.0.2/CMakeSystem.cmake"
+  "C:/Users/xippe/OneDrive/Skrivbord/final_project/C++/My_Budget/ext/glfw/CMake/cmake_uninstall.cmake.in"
+  "C:/Users/xippe/OneDrive/Skrivbord/final_project/C++/My_Budget/ext/glfw/CMake/glfw3.pc.in"
+  "C:/Users/xippe/OneDrive/Skrivbord/final_project/C++/My_Budget/ext/glfw/CMake/glfw3Config.cmake.in"
+  "C:/Users/xippe/OneDrive/Skrivbord/final_project/C++/My_Budget/ext/glfw/CMakeLists.txt"
+  "C:/Users/xippe/OneDrive/Skrivbord/final_project/C++/My_Budget/ext/glfw/docs/CMakeLists.txt"
+  "C:/Users/xippe/OneDrive/Skrivbord/final_project/C++/My_Budget/ext/glfw/src/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -54,8 +73,19 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "ext/glfw/src/glfw3Config.cmake"
+  "ext/glfw/src/glfw3ConfigVersion.cmake"
+  "ext/glfw/cmake_uninstall.cmake"
+  "ext/glfw/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "ext/glfw/src/glfw3.pc"
+  "ext/glfw/src/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "ext/glfw/docs/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/My_Budget.dir/DependInfo.cmake"
+  "ext/glfw/CMakeFiles/uninstall.dir/DependInfo.cmake"
+  "ext/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake"
+  "ext/glfw/src/CMakeFiles/update_mappings.dir/DependInfo.cmake"
   )

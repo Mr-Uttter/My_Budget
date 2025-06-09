@@ -1,7 +1,10 @@
 {
 	"InstallScripts" : 
 	[
-		"C:/Users/xippe/OneDrive/Skrivbord/final_project/C++/My_Budget/build/cmake_install.cmake"
+		"C:/Users/xippe/OneDrive/Skrivbord/final_project/C++/My_Budget/build/cmake_install.cmake",
+		"C:/Users/xippe/OneDrive/Skrivbord/final_project/C++/My_Budget/build/ext/glfw/cmake_install.cmake",
+		"C:/Users/xippe/OneDrive/Skrivbord/final_project/C++/My_Budget/build/ext/glfw/src/cmake_install.cmake",
+		"C:/Users/xippe/OneDrive/Skrivbord/final_project/C++/My_Budget/build/ext/glfw/docs/cmake_install.cmake"
 	],
 	"Parallel" : false
 }
