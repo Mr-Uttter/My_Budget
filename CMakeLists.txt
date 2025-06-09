@@ -47,6 +47,7 @@ target_include_directories(My_Budget PUBLIC
     ${CMAKE_SOURCE_DIR}/ext/imgui            # ImGui's huvud-headerfiler (imgui.h, imconfig.h)
     ${CMAKE_SOURCE_DIR}/ext/imgui/backends   # ImGui's backend-headerfiler
     ${CMAKE_SOURCE_DIR}/ext/imgui/misc/cpp   #
+    ${CMAKE_SOURCE_DIR}/ext/glfw/include/GLFW#
 )
 
 # Länka din applikation till de bibliotek den använder.
