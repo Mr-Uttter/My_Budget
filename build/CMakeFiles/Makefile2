@@ -150,12 +150,12 @@ ext/glfw/src/clean: ext/glfw/src/CMakeFiles/update_mappings.dir/clean
 CMakeFiles/My_Budget.dir/all: ext/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\My_Budget.dir\build.make CMakeFiles/My_Budget.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\My_Budget.dir\build.make CMakeFiles/My_Budget.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\xippe\OneDrive\Skrivbord\final_project\C++\My_Budget\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Built target My_Budget"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\xippe\OneDrive\Skrivbord\final_project\C++\My_Budget\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Built target My_Budget"
 .PHONY : CMakeFiles/My_Budget.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/My_Budget.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\xippe\OneDrive\Skrivbord\final_project\C++\My_Budget\build\CMakeFiles 32
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\xippe\OneDrive\Skrivbord\final_project\C++\My_Budget\build\CMakeFiles 33
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/My_Budget.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\xippe\OneDrive\Skrivbord\final_project\C++\My_Budget\build\CMakeFiles 0
 .PHONY : CMakeFiles/My_Budget.dir/rule
@@ -167,7 +167,7 @@ My_Budget: CMakeFiles/My_Budget.dir/rule
 # codegen rule for target.
 CMakeFiles/My_Budget.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\My_Budget.dir\build.make CMakeFiles/My_Budget.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\xippe\OneDrive\Skrivbord\final_project\C++\My_Budget\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Finished codegen for target My_Budget"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\xippe\OneDrive\Skrivbord\final_project\C++\My_Budget\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Finished codegen for target My_Budget"
 .PHONY : CMakeFiles/My_Budget.dir/codegen
 
 # clean rule for target.
@@ -214,7 +214,7 @@ ext/glfw/CMakeFiles/uninstall.dir/clean:
 ext/glfw/src/CMakeFiles/glfw.dir/all:
 	$(MAKE) $(MAKESILENT) -f ext\glfw\src\CMakeFiles\glfw.dir\build.make ext/glfw/src/CMakeFiles/glfw.dir/depend
 	$(MAKE) $(MAKESILENT) -f ext\glfw\src\CMakeFiles\glfw.dir\build.make ext/glfw/src/CMakeFiles/glfw.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\xippe\OneDrive\Skrivbord\final_project\C++\My_Budget\build\CMakeFiles --progress-num=11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32 "Built target glfw"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\xippe\OneDrive\Skrivbord\final_project\C++\My_Budget\build\CMakeFiles --progress-num=12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33 "Built target glfw"
 .PHONY : ext/glfw/src/CMakeFiles/glfw.dir/all
 
 # Build rule for subdir invocation for target.
@@ -231,7 +231,7 @@ glfw: ext/glfw/src/CMakeFiles/glfw.dir/rule
 # codegen rule for target.
 ext/glfw/src/CMakeFiles/glfw.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f ext\glfw\src\CMakeFiles\glfw.dir\build.make ext/glfw/src/CMakeFiles/glfw.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\xippe\OneDrive\Skrivbord\final_project\C++\My_Budget\build\CMakeFiles --progress-num=11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32 "Finished codegen for target glfw"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\xippe\OneDrive\Skrivbord\final_project\C++\My_Budget\build\CMakeFiles --progress-num=12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33 "Finished codegen for target glfw"
 .PHONY : ext/glfw/src/CMakeFiles/glfw.dir/codegen
 
 # clean rule for target.
@@ -246,7 +246,7 @@ ext/glfw/src/CMakeFiles/glfw.dir/clean:
 ext/glfw/src/CMakeFiles/update_mappings.dir/all:
 	$(MAKE) $(MAKESILENT) -f ext\glfw\src\CMakeFiles\update_mappings.dir\build.make ext/glfw/src/CMakeFiles/update_mappings.dir/depend
 	$(MAKE) $(MAKESILENT) -f ext\glfw\src\CMakeFiles\update_mappings.dir\build.make ext/glfw/src/CMakeFiles/update_mappings.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\xippe\OneDrive\Skrivbord\final_project\C++\My_Budget\build\CMakeFiles --progress-num=33 "Built target update_mappings"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\xippe\OneDrive\Skrivbord\final_project\C++\My_Budget\build\CMakeFiles --progress-num=34 "Built target update_mappings"
 .PHONY : ext/glfw/src/CMakeFiles/update_mappings.dir/all
 
 # Build rule for subdir invocation for target.
@@ -263,7 +263,7 @@ update_mappings: ext/glfw/src/CMakeFiles/update_mappings.dir/rule
 # codegen rule for target.
 ext/glfw/src/CMakeFiles/update_mappings.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f ext\glfw\src\CMakeFiles\update_mappings.dir\build.make ext/glfw/src/CMakeFiles/update_mappings.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\xippe\OneDrive\Skrivbord\final_project\C++\My_Budget\build\CMakeFiles --progress-num=33 "Finished codegen for target update_mappings"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\xippe\OneDrive\Skrivbord\final_project\C++\My_Budget\build\CMakeFiles --progress-num=34 "Finished codegen for target update_mappings"
 .PHONY : ext/glfw/src/CMakeFiles/update_mappings.dir/codegen
 
 # clean rule for target.

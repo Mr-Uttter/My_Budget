@@ -5,6 +5,7 @@ project(My_Budget CXX) # Projektets namn, påverkar inte .exe-filens namn direkt
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF) # För att säkerställa standardkompatibilitet
+enable_language(C)
 
 # Lägg till underkatalog för GLFW.
 # GLFW har en egen CMakeLists.txt och byggs som ett separat bibliotek.
@@ -12,6 +13,7 @@ add_subdirectory(ext/glfw)
 
 # Definiera källfiler för din huvudapplikation.
 # Detta inkluderar dina egna filer samt ImGui-filerna.
+
 set(APP_SOURCES
     src/main.cpp
     src/application.cpp
@@ -26,6 +28,9 @@ set(APP_SOURCES
     # ImGui backends - Välj den/de som passar din rendering (t.ex. OpenGL3 med GLFW)
     ext/imgui/backends/imgui_impl_glfw.cpp
     ext/imgui/backends/imgui_impl_opengl3.cpp
+
+    # glad källfil
+    ext/src/glad.c
 )
 
 # Lägg till din huvudapplikation.
@@ -43,11 +48,13 @@ set_target_properties(My_Budget PROPERTIES
 
 # Inkludera mappar där kompilatorn ska söka efter headerfiler.
 target_include_directories(My_Budget PUBLIC
-    ${CMAKE_SOURCE_DIR}/src                  # Dina egna headerfiler
-    ${CMAKE_SOURCE_DIR}/ext/imgui            # ImGui's huvud-headerfiler (imgui.h, imconfig.h)
-    ${CMAKE_SOURCE_DIR}/ext/imgui/backends   # ImGui's backend-headerfiler
-    ${CMAKE_SOURCE_DIR}/ext/imgui/misc/cpp   #
-    ${CMAKE_SOURCE_DIR}/ext/glfw/include/GLFW#
+    ${CMAKE_SOURCE_DIR}/src                     # Dina egna headerfiler
+    ${CMAKE_SOURCE_DIR}/ext/imgui               # ImGui's huvud-headerfiler (imgui.h, imconfig.h)
+    ${CMAKE_SOURCE_DIR}/ext/imgui/backends      # ImGui's backend-headerfiler
+    ${CMAKE_SOURCE_DIR}/ext/imgui/misc/cpp      
+    ${CMAKE_SOURCE_DIR}/ext/glfw/include       
+    ${CMAKE_SOURCE_DIR}/ext/include            # OpenGL Loader header
+    ${CMAKE_SOURCE_DIR}/ext/src
 )
 
 # Länka din applikation till de bibliotek den använder.

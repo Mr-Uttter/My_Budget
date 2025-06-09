@@ -380,6 +380,30 @@ ext/imgui/imgui_widgets.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\My_Budget.dir\build.make CMakeFiles/My_Budget.dir/ext/imgui/imgui_widgets.cpp.s
 .PHONY : ext/imgui/imgui_widgets.cpp.s
 
+ext/src/glad.obj: ext/src/glad.c.obj
+.PHONY : ext/src/glad.obj
+
+# target to build an object file
+ext/src/glad.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\My_Budget.dir\build.make CMakeFiles/My_Budget.dir/ext/src/glad.c.obj
+.PHONY : ext/src/glad.c.obj
+
+ext/src/glad.i: ext/src/glad.c.i
+.PHONY : ext/src/glad.i
+
+# target to preprocess a source file
+ext/src/glad.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\My_Budget.dir\build.make CMakeFiles/My_Budget.dir/ext/src/glad.c.i
+.PHONY : ext/src/glad.c.i
+
+ext/src/glad.s: ext/src/glad.c.s
+.PHONY : ext/src/glad.s
+
+# target to generate assembly for a file
+ext/src/glad.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\My_Budget.dir\build.make CMakeFiles/My_Budget.dir/ext/src/glad.c.s
+.PHONY : ext/src/glad.c.s
+
 src/application.obj: src/application.cpp.obj
 .PHONY : src/application.obj
 
@@ -465,6 +489,9 @@ help:
 	@echo ... ext/imgui/imgui_widgets.obj
 	@echo ... ext/imgui/imgui_widgets.i
 	@echo ... ext/imgui/imgui_widgets.s
+	@echo ... ext/src/glad.obj
+	@echo ... ext/src/glad.i
+	@echo ... ext/src/glad.s
 	@echo ... src/application.obj
 	@echo ... src/application.i
 	@echo ... src/application.s
