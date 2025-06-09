@@ -1,0 +1,2 @@
+C:/Users/xippe/OneDrive/Skrivbord/final_project/C++/My_Budget/build/CMakeFiles/edit_cache.dir
+C:/Users/xippe/OneDrive/Skrivbord/final_project/C++/My_Budget/build/CMakeFiles/rebuild_cache.dir
