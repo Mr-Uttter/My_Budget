@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\My_Budget.dir/objects.a
+C:\ProgramData\mingw64\mingw64\bin\ar.exe qc CMakeFiles\My_Budget.dir/objects.a @CMakeFiles\My_Budget.dir\objects1.rsp
+C:\ProgramData\mingw64\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\My_Budget.dir/objects.a -Wl,--no-whole-archive -o output\Debug\My_Budget.exe -Wl,--out-implib,libMy_Budget.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\My_Budget.dir\linkLibs.rsp
